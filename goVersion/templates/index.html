@@ -1,0 +1,26 @@
+{{template "layout" .}}
+
+{{ define "content" }}
+
+    <div class="contentbox">
+        <h2 style="padding-left: 3%;">Homepage</h2>
+    </div>
+
+    <div class="contentbox" style="font-size: larger;">
+        <p>My personal projects I enjoyed making and proud to share : </p>
+        <ul>
+            <li><p>My password generator <a href="https://password-generator.site/en">website</a></p></li>
+        <li>
+            <p>A little <a href="https://github.com/Unbewohnte/Clicker">clicker</a> written in Python</p>
+        </li>
+        <li>
+            <p>A <a href="https://github.com/Unbewohnte/VideoToAscii">tool</a> I wrote in Go to make sequence of ASCII art, generated 
+            from frames of given video
+            <small>(Uses <a href="https://www.ffmpeg.org/">FMMPEG</a>)</small>
+            <small>(also there`s a <a href="https://youtu.be/2jVG3Nd-kMg">Bad Apple !!</a> in terminal I made with this)</small>
+            </p>
+            
+        </li>
+    </ul>
+    </div>
+{{ end }}

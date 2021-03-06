@@ -1,0 +1,55 @@
+body{
+    font-family: 'Texturina' serif;
+    background-color: LightGray;
+    font-size: 2.2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding-left: 1%;
+}
+
+div{
+    margin: 1% 1% 1% 1%;
+    border-radius: 5px;
+}
+
+.error_message{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#unbewohnte-pic{
+    width: 36px;
+    height: 36px;
+}
+
+#mygithub{
+    width: 24px;
+    height: 24px;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: auto, auto, auto, auto;
+}
+.grid-container > div {
+    display: grid;
+    grid-gap: 10px;
+    text-align: start;
+}
+
+.contentbox{
+    background-color: #f2f2f2;
+    border: 2px solid #e6e6e6;
+}
+
+.wrapper{
+    width: 90%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
